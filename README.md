@@ -11,5 +11,8 @@ This is Google Pixel apps for arm64 Android 10 ROM modded by @reiryuki from orig
 - Excluded Migrate Helper app from battery optimization to prevent restoration failures.
 - Fixed missing permissions.
 
+## Attention!
+- Make sure this Pixel Gapps is installed before Magisk installer or any root installer.
+
 ## Download
 - Bellow at "Releases".
