@@ -13,6 +13,7 @@ This is Google Pixel apps for arm64 Android 10 ROM modded by @reiryuki from orig
 
 ## Attention!
 - Make sure this Pixel Gapps is installed before Magisk installer or any root installer.
+- If Personal Safety app is not working properly, usually, your device is detected as a custom build. Then, you have to spoof your device using MagiskHideProp Magisk Module into Pixel build.
 
 ## Download
 - Bellow at "Releases".
