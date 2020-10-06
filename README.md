@@ -4,7 +4,7 @@
 This is Pixel Google Apps for arm64 Android 10 ROM modded by @reiryuki from original Pixel Gapps Full version by [Nemesis Team](https://t.me/PixelGAppsNews).
 
 ## What's the difference?
-- It will not replacing any bloatwares except ModuleMetaData.apk for Google Play System updates support.
+- It will not replacing any bloatwares from ROM.
 - Removed apps that doesn't require system permissions and already in Play Store.
 - Bring back Personal Safety app.
 - Excluded Play Store from battery optimization to prevent download failures.
