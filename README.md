@@ -5,7 +5,7 @@ This is Pixel Google Apps for arm64 Android 10 ROM modded by @reiryuki from orig
 
 ## What's the difference?
 - It will not replacing any bloatwares from ROM.
-- Removed apps that doesn't require system permissions and already in Play Store.
+- Removed Google apps that doesn't require system permissions and already in Play Store.
 - Bring back Personal Safety app.
 - Excluded Play Store from battery optimization to prevent download failures.
 - Excluded Migrate Helper app from battery optimization to prevent restoration failures.
