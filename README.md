@@ -1,7 +1,7 @@
 # Pixel-Gapps-Ryuki-Mod-arm64-10
 
 ## Descriptions
-A modded Pixel Google Apps for any arm64 Android 10 vanilla ROM from original Pixel Gapps Full version by [Nemesis Team](https://t.me/PixelGAppsNews).
+A modded Pixel Google Apps from original Pixel Gapps Full version by [Nemesis Team](https://t.me/PixelGAppsNews) for any arm64 Android 10 vanilla ROM.
 
 ## What's the difference?
 - It will not replacing any bloatwares from ROM.
