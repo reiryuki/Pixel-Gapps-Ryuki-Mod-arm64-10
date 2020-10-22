@@ -16,7 +16,7 @@ This is Pixel Google Apps for arm64 Android 10 ROM modded by @reiryuki from orig
 - If Personal Safety app is not working properly, usually, your device is detected as a custom build. Then, you have to spoof your device using MagiskHideProp Magisk Module (device fingerprint and all device simulation) into Pixel build.
 - If you are not be able to update Google Phone via Play Store, use MagiskHideProp Magisk Module to spoof device build fingerprint to Pixel, reboot, and clear Play Store data. It will fixing Android Auto app also.
 - If you don't use chat feature in Google Messages, you can disable Carrier Services app.
-- If you device has poor RAM, you can disable Device Personalization Services but some features will be lost.
+- If your device has poor RAM, you can disable Device Personalization Services but some features will be lost.
 
 ## Download
 - Bellow at "Releases".
