@@ -3,7 +3,7 @@
 ## Descriptions
 A modded Pixel Google Apps from original Pixel Gapps Full version by [Nemesis Team](https://t.me/PixelGAppsNews) for any arm64 Android 10 vanilla ROM.
 
-## What's the difference?
+## What are differences?
 - It will not replacing any bloatwares from ROM.
 - Removed Google apps that doesn't require system permissions and already in Play Store.
 - Bring back Personal Safety app.
