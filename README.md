@@ -6,6 +6,7 @@ A modded Pixel Google Apps from original Pixel Gapps Full version by [Nemesis Te
 ## What are differences?
 - It will not replacing any bloatwares from ROM.
 - Removed Google apps that doesn't require system permissions and already in Play Store.
+- Removed overlays.
 - Bring back Personal Safety app.
 - Excluded Play Store from battery optimization to prevent download failures.
 - Excluded Migrate Helper app from battery optimization to prevent restoration failures.
