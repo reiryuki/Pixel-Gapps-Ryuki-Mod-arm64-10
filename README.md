@@ -19,5 +19,8 @@ A modded Pixel Google Apps from original Pixel Gapps Full version by [Nemesis Te
 - If you don't use chat feature in Google Messages, you can disable Carrier Services app.
 - If your device has poor RAM, you can disable Device Personalization Services but some features will be lost.
 
+## Donate
+- https://www.paypal.me/reiryuki
+
 ## Download
 - Bellow at "Releases".
