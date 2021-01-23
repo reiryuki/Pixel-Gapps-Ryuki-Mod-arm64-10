@@ -14,10 +14,9 @@ A modded Pixel Google Apps from original Pixel Gapps Full version by [Nemesis Te
 
 ## Attention!
 - Make sure this Pixel Gapps is installed before Magisk installer or any root installer.
-- If Personal Safety app is not working properly, usually, your device is detected as a custom build. Then, you have to spoof your device using MagiskHideProp Magisk Module (device fingerprint and all device simulation) into Pixel build.
+- Location sharing in Personal Safety app is only working if ro.product.model is turns to any Pixel device. Use MagiskHideProp Magisk Module to change it. Clear Personal Safety App data, location permission "allow all the time" for Personal Safety and Maps app must be granted.
 - If you are not be able to update Google Phone via Play Store, use MagiskHideProp Magisk Module to spoof device build fingerprint to Pixel, reboot, and clear Play Store data. It will fixing Android Auto app also.
-- If you don't use chat feature in Google Messages, you can disable Carrier Services app.
-- If your device has poor RAM, you can disable Device Personalization Services but some features will be lost.
+- Don't change other device simulation with MagiskHideProp Magisk Module except the build fingerprint and product model, or you will get crash loop in Google Play Services.
 
 ## Donate
 - https://www.paypal.me/reiryuki
