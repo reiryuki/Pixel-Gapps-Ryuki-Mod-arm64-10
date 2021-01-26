@@ -18,6 +18,9 @@
 - If you are not be able to update Google Phone via Play Store or not be able to use Android Auto, use MagiskHideProp Magisk Module to spoof device build fingerprint to Pixel, reboot, and clear Play Store data.
 - If you are not be able to update Android Auto via Play Store, update it via Aptoide.
 
+## Channel
+https://t.me/androidryukimods
+
 ## Donate
 - https://www.paypal.me/reiryuki
 
