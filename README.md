@@ -10,6 +10,7 @@
 - Bring back Personal Safety app
 - Excluded Play Store from battery optimization to prevent download failures
 - Excluded Migrate Helper app from battery optimization to prevent restoration failures
+- Excluded System UI from battery optimization to prevent undesired UI restart
 - Fixed missing permissions
 
 ## Attention!
