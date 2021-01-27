@@ -8,10 +8,11 @@
 - Removed Google apps that doesn't require privileged permissions and already in Play Store
 - Removed overlays
 - Bring back Personal Safety app
+- Added Android Auto
 - Excluded Play Store from battery optimization to prevent download failures
 - Excluded Migrate Helper app from battery optimization to prevent restoration failures
 - Excluded System UI from battery optimization to prevent undesired UI restart
-- Fixed missing permissions
+- Fixed permissions
 
 ## Attention!
 - Make sure this Pixel Gapps is installed before Magisk installer or any root installer.
