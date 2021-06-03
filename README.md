@@ -15,8 +15,8 @@
 ## Attention!
 - Make sure this Pixel Gapps is installed before Magisk installer or any root installer.
 - Location sharing in Personal Safety app is only for Pixel devices. You can spoof your non Pixel device into Pixel device using MagiskHideProp Magisk Module at device simulation to get this working. Clear Personal Safety App data and the location permission "allow all the time" for Personal Safety and Maps app must be granted.
-- If you are not be able to update Google Phone via Play Store or not be able to use Android Auto, use MagiskHideProp Magisk Module to spoof device build fingerprint to Pixel, reboot, and clear Play Store data.
-- If you are not be able to update Android Auto via Play Store, update it via Aptoide.
+- If you are unable to update Google Phone via Play Store or not be able to use Android Auto, use MagiskHideProp Magisk Module to spoof device build fingerprint to Pixel, reboot, and clear Play Store data.
+- If you are unable to download Android Auto via Play Store, download it via Aptoide.
 
 ## Channel
 - https://t.me/androidryukimods
