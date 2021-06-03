@@ -4,14 +4,12 @@
 - A modded GApps from original Pixel Gapps Full version by [Nemesis Team](https://t.me/PixelGAppsNews) for any arm64 Android 10 custom ROM vanilla.
 
 ## What are differences?
-- Doesn't replace any bloatwares
-- Removed Google apps that doesn't require privileged permissions and already in Play Store
+- Doesn't replace any bloatwares except SetupWizard, DocumentsUI, and EmergencyInfo app
+- Removed Google apps that doesn't require privilege permissions and already in Play Store
 - Removed overlays
 - Bring back Personal Safety app
-- Added Android Auto
 - Excluded Play Store from battery optimization to prevent download failures
 - Excluded Migrate Helper app from battery optimization to prevent restoration failures
-- Excluded System UI from battery optimization to prevent undesired UI restart
 - Fixed permissions
 
 ## Attention!
@@ -23,8 +21,8 @@
 ## Channel
 https://t.me/androidryukimods
 
-## Donate
+## Thanks for Donations
 - https://www.paypal.me/reiryuki
 
 ## Download
-- Tap "Releases"
+- Moved link here: https://www.pling.com/p/1532941/
