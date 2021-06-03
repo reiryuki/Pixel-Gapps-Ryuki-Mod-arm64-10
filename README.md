@@ -19,7 +19,7 @@
 - If you are not be able to update Android Auto via Play Store, update it via Aptoide.
 
 ## Channel
-https://t.me/androidryukimods
+- https://t.me/androidryukimods
 
 ## Thanks for Donations
 - https://www.paypal.me/reiryuki
