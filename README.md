@@ -25,4 +25,4 @@
 - https://www.paypal.me/reiryuki
 
 ## Download
-- Moved link here: https://www.pling.com/p/1532941/
+- https://www.pling.com/p/1532941/
