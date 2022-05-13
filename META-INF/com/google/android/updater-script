@@ -1,0 +1,127 @@
+ui_print("                                               ");
+ui_print("***********************************************");
+ui_print("*       ____  _          _                    *");
+ui_print("*      |  _ \(_)_  _____| |                   *");
+ui_print("*      | |_) | \ \/ / _ \ |                   *");
+ui_print("*      |  __/| |>  <  __/ |                   *");
+ui_print("*      |_|   |_/_/\_\___|_|                   *");
+ui_print("*          ____    _                          *");
+ui_print("*         / ___|  / \   _ __  _ __  ___       *");
+ui_print("*        | |  _  / _ \ | '_ \| '_ \/ __|      *");
+ui_print("*        | |_| |/ ___ \| |_) | |_) \__ \      *");
+ui_print("*         \____/_/   \_\ .__/| .__/|___/      *");
+ui_print("*                      |_|   |_|              *");
+ui_print("*                                             *");
+ui_print("***********************************************");
+ui_print("*          by Deivid_21 & nachoxda7           *");
+ui_print("*        modded by Rei Ryuki the Fixer        *");
+ui_print("***********************************************");
+ui_print("*         Android Version: Android 10         *");
+ui_print("***********************************************");
+ui_print("*        Architecture: arm64 (64-bit)         *");
+ui_print("***********************************************");
+ui_print("*              Version: 34.0-1.5              *");
+ui_print("***********************************************");
+ui_print("*            Build date: 20210603             *");
+ui_print("***********************************************");
+ui_print("*            Maintainer: @reiryuki            *");
+ui_print("***********************************************");
+ui_print("*                                             *");
+
+show_progress(1.000000, 0);
+
+ui_print("*           Mounting Partitions...            *");
+ui_print("*                                             *");
+
+package_extract_file("mount-system.sh", "/tmp/mount-system.sh");
+package_extract_file("unmount-system.sh", "/tmp/unmount-system.sh");
+set_metadata("/tmp/mount-system.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-system.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-system.sh");
+
+package_extract_file("mount-system_root.sh", "/tmp/mount-system_root.sh");
+package_extract_file("unmount-system_root.sh", "/tmp/unmount-system_root.sh");
+set_metadata("/tmp/mount-system_root.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-system_root.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-system_root.sh");
+
+package_extract_file("mount-vendor.sh", "/tmp/mount-vendor.sh");
+package_extract_file("unmount-vendor.sh", "/tmp/unmount-vendor.sh");
+set_metadata("/tmp/mount-vendor.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-vendor.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-vendor.sh");
+
+package_extract_file("mount-product.sh", "/tmp/mount-product.sh");
+package_extract_file("unmount-product.sh", "/tmp/unmount-product.sh");
+set_metadata("/tmp/mount-product.sh", "uid", 0, "gid", 0, "mode", 0755);
+set_metadata("/tmp/unmount-product.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-product.sh");
+
+set_progress(0.100000);
+
+ui_print("*            Deleting Resources...            *");
+ui_print("*                                             *");
+
+package_extract_file("remove-apps.sh", "/tmp/remove-apps.sh");
+set_metadata("/tmp/remove-apps.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/remove-apps.sh");
+
+set_progress(0.200000);
+
+ui_print("*          Installing Pixel-GApps...          *");
+ui_print("*                                             *");
+
+if getprop("ro.twrp.sar") != "true" then
+  package_extract_dir("system", "/system_root/system");
+  package_extract_dir("system", "/system/system");
+else
+  package_extract_dir("system", "/system");
+  package_extract_dir("system", "/system_root/system");
+endif;
+
+if getprop("ro.boot.dynamic_partitions") != "true" then
+  package_extract_dir("system/vendor", "/vendor");
+else
+  package_extract_dir("system/product", "/product");
+endif;
+
+package_extract_dir("system/vendor", "/vendor");
+
+ui_print("*           Setting permissions...            *");
+ui_print("*                                             *");
+
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/priv-app");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system/system/product/priv-app");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/priv-app");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/system_root/system/product/priv-app");
+set_perm_recursive(0, 0, 0755, 0644, "/product/framework");
+set_perm_recursive(0, 0, 0755, 0644, "/product/priv-app");
+
+set_progress(0.800000);
+
+ui_print("*          Dismounting Partitions...          *");
+ui_print("*                                             *");
+
+run_program("/tmp/unmount-system.sh");
+run_program("/tmp/unmount-system_root.sh");
+run_program("/tmp/unmount-vendor.sh");
+run_program("/tmp/unmount-product.sh");
+
+ui_print("*         Installation successful...          *");
+ui_print("*                                             *");
+ui_print("*                   Enjoy!                    *");
+ui_print("*                                             *");
+ui_print("*                                             *");
+ui_print("*                                             *");
+ui_print("*        Copyright © 2020 Nemesis Team        *");
+ui_print("*                                             *");
+ui_print("***********************************************");
+ui_print("                                               ");
+
+set_progress(1.000000);
+
+
