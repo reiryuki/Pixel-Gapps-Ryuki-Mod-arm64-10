@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- reiryuki -->
+<!-- These packages should be placed at priv-app folder in non-AOSP signatured ROM -->
+<permissions>
+
+    <privapp-permissions package="com.google.android.apps.nexuslauncher">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.gms">
+        <permission name="android.permission.SYSTEM_CAMERA"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.vending">
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="com.google.android.providers.gsf.permission.WRITE_GSERVICES"/>
+    </privapp-permissions>
+    
+    <privapp-permissions package="com.google.android.apps.pixelmigrate">
+        <permission name="com.google.android.setupwizard.WRITE_DEVICE_ORIGIN"/>
+    </privapp-permissions>
+    
+    <privapp-permissions package="com.google.android.apps.safetyhub">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+    
+    <privapp-permissions package="com.google.android.projection.gearhead">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="com.google.android.finsky.permission.GEARHEAD_SERVICE"/>
+    </privapp-permissions>
+    
+    <privapp-permissions package="com.google.android.apps.messaging">
+        <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.photos">
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.GoogleCamera">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+    </privapp-permissions>
+    
+    <privapp-permissions package="com.android.camera2">
+        <permission name="android.permission.BIND_WALLPAPER"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.inputmethod.latin">
+        <permission name="android.permission.INTERACT_ACROSS_PROFILES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.syncadapters.contacts">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="com.google.android.providers.gsf.permission.WRITE_GSERVICES"/>
+    </privapp-permissions>
+    
+</permissions>
+
+

@@ -1,1 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.google.android.camera2"
+        file="/product/framework/com.google.android.camera2.jar"/>
+</permissions>
 
