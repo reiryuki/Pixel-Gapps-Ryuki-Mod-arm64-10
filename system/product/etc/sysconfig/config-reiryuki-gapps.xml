@@ -1,1 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- reiryuki -->
+<config>
+
+    <allow-implicit-broadcast action="com.google.android.systemui.OPA_ENABLED"/>
+    <allow-implicit-broadcast action="com.google.android.gms.location.reporting.SETTINGS_CHANGED"/>
+    <allow-implicit-broadcast action="com.google.android.location.internal.server.ACTION_RESTARTED"/>
+
+    <hidden-api-whitelisted-app package="com.google.android.gms"/>
+    <hidden-api-whitelisted-app package="com.android.vending"/>
+    <hidden-api-whitelisted-app package="com.google.android.syncadapters.calendar"/>
+    <hidden-api-whitelisted-app package="com.google.android.as"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.safetyhub"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.gcs"/>
+    <hidden-api-whitelisted-app package="com.google.android.projection.gearhead"/>
+    <hidden-api-whitelisted-app package="com.google.android.tts"/>
+    <hidden-api-whitelisted-app package="com.google.android.inputmethod.latin"/>
+    <hidden-api-whitelisted-app package="com.google.android.googlequicksearchbox"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.wellbeing"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.photos"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.messaging"/>
+    <hidden-api-whitelisted-app package="com.google.android.calendar"/>
+    <hidden-api-whitelisted-app package="com.google.android.deskclock"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.magazines"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.tachyon"/>
+    <hidden-api-whitelisted-app package="com.google.android.keep"/>
+    <hidden-api-whitelisted-app package="com.google.android.youtube"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.youtube.music"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.docs.editors.docs"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.docs"/>
+    <hidden-api-whitelisted-app package="com.google.android.gm"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.translate"/>
+    <hidden-api-whitelisted-app package="com.google.android.apps.meetings"/>
+    <hidden-api-whitelisted-app package="com.google.android.GoogleCamera"/>
+    <hidden-api-whitelisted-app package="com.android.camera2"/>
+    
+    <allow-in-power-save package="balti.migrate.helper"/>
+
+</config>
 
