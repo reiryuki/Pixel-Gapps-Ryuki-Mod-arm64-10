@@ -19,6 +19,7 @@
     <hidden-api-whitelisted-app package="com.google.android.apps.wellbeing"/>
     <hidden-api-whitelisted-app package="com.google.android.apps.photos"/>
     <hidden-api-whitelisted-app package="com.google.android.apps.messaging"/>
+    <hidden-api-whitelisted-app package="com.google.android.ims"/>
     <hidden-api-whitelisted-app package="com.google.android.calendar"/>
     <hidden-api-whitelisted-app package="com.google.android.deskclock"/>
     <hidden-api-whitelisted-app package="com.google.android.apps.magazines"/>
@@ -37,4 +38,3 @@
     <allow-in-power-save package="balti.migrate.helper"/>
 
 </config>
-
